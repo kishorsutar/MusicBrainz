@@ -1,0 +1,2 @@
+rootProject.name = "MusicBrainz"
+include ':app'
