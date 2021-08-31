@@ -7,8 +7,10 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.dice.musicbrainz.R
 import com.dice.musicbrainz.databinding.ArtistSearchFragmentBinding
+import dagger.hilt.android.AndroidEntryPoint
 
-class ArtistSearchFragment: Fragment(R.layout.artist_search_fragment) {
+@AndroidEntryPoint
+class ArtistSearchFragment : Fragment(R.layout.artist_search_fragment) {
 
     private var _binding: ArtistSearchFragmentBinding? = null
     private val binding get() = _binding

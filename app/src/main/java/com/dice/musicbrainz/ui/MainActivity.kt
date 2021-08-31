@@ -1,11 +1,13 @@
-package com.dice.musicbrainz
+package com.dice.musicbrainz.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.commit
 import androidx.fragment.app.add
-import com.dice.musicbrainz.ui.ArtistSearchFragment
+import com.dice.musicbrainz.R
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity(R.layout.activity_main) {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
